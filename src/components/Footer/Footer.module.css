@@ -6,16 +6,7 @@
   font-weight: 200;
   position: relative;
 }
-.footerWrapper::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  width: 1px;
-  top: 0px;
-  height: 75px;
-  transform: translate(-50%, 0px);
-  background-color: #ff0513;
-}
+
 .footerLiks a {
   font-size: 20px;
   color: #fff;

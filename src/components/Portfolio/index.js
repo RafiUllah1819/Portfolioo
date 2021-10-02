@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Portfolio.module.css";
 import Portfolicard from "./portfolioCard";
-import fortfolioData from "../../portfolioData.js";
+import fortfolioData from "./portfolioData.js";
 
 const Portfolio = () => {
   const initialState = fortfolioData;

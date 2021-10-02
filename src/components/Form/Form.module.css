@@ -5,16 +5,7 @@
   padding: 150px 0px;
   position: relative;
 }
-.hireWrapper::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  width: 1px;
-  top: 0px;
-  height: 130px;
-  transform: translate(-50%, 0px);
-  background-color: #ff0513;
-}
+
 .hireContent {
   margin-bottom: 50px;
 }

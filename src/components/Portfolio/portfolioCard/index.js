@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Portfoliocard.module.css";
 
 const Portfolicard = (props) => {
+  console.log("props"+ props )
   return (
     <div className={styles.portfolioCardWrapper}>
       <div className={styles.portfolioCard}>
