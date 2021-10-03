@@ -1,3 +1,8 @@
+.Container{
+  max-width: 1751px;
+  margin: 0 auto;
+}
+
 .hireWrapper {
   background-color: #0e0c38;
   color: #fff;
@@ -37,6 +42,7 @@
   width: 100%;
   font-size: 21px;
   padding: 0px 20px;
+  text-transform: uppercase;
 }
 .messgaeTextarea {
   flex: 0 0 100%;
@@ -45,6 +51,7 @@
   width: 100%;
   padding: 20px;
   font-size: 20px;
+  text-transform: uppercase;
 }
 
 .hireSubmit {

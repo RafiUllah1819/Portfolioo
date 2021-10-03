@@ -1,17 +1,18 @@
 import "./App.css";
-import About from "./components/About";
+import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import About from "./components/About";
 import Capabilities from "./components/Capabilities";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
 import Form from "./components/Form/Form";
 import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
+      <Navbar />
       <Hero />
       <About />
       <Portfolio />

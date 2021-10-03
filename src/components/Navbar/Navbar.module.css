@@ -1,0 +1,50 @@
+
+.Container{
+    max-width: 1751px;
+    margin: 0 auto;
+}
+
+.Logo{
+    max-width: 265px;
+
+    /* position: absolute; */
+}
+.Logo img{
+    width: 100%;
+}
+.Navbar{
+    max-width: 639px;
+    margin-left: auto;
+}
+.Nav{
+    position: absolute;
+    top: 20px;
+    height: 70px;
+    width: 95%;
+    z-index: 99999;
+}
+ .NavItem{
+     font-size: 22px;
+     color: #fff;
+     line-height: 28px;
+     font-weight: 500;
+     font-family: 'Poppins';
+    padding-top: 30px;
+    text-decoration: none;
+    margin: 0 25px;
+    padding: 38px 10px 10px 10px;
+}
+ul a:hover{
+    background-color: #ff0000;
+    color: #fff;
+
+}
+button{
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    padding: 8px 9px;
+    border-radius: 21px;
+}
+
+    

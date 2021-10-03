@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import styles from "./Portfolio.module.css";
 import Portfolicard from "./portfolioCard";
-import fortfolioData from "./portfolioData.js";
+import initialState from "./portfolioData.js";
 
 const Portfolio = () => {
-  const initialState = fortfolioData;
+ 
   const [portfolioCards, setPortfolioItems] = useState(initialState);
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -25,7 +25,7 @@ const Portfolio = () => {
 
   return (
     <div id="Portfolio" className={styles.portfolioWrapper}>
-      <div className="container">
+      <div className={styles.Container}>
         <div className={styles.portfolioInner}>
           <h3>Portfolio</h3>
           <div className={styles.portfolioNav}>

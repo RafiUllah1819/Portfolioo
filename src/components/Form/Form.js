@@ -4,7 +4,7 @@ import styles from "./Form.module.css";
 const Form = () => {
   return (
     <div id="Hire" className={styles.hireWrapper}>
-      <div className="container">
+      <div className={styles.Container}>
         <div className={styles.hireInner}>
           <div className={styles.hireContent}>
             <h2>Let’s Make Something Great Together</h2>

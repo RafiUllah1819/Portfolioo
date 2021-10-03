@@ -1,3 +1,8 @@
+.Container{
+  max-width: 1751px;
+  margin: 0 auto;
+}
+
 .bannerWrapper {
   background-color: #0e0c38;
   color: #fff;

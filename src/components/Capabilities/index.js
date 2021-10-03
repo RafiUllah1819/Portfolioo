@@ -5,7 +5,7 @@ import CapabilitiesCard from "./Capabilitiescard";
 const Capabilities = () => {
   return (
     <div className={styles.CapabilitiesWrapper}>
-      <div className="container">
+      <div className={styles.Container}>
         <div className={styles.CapabilitiesInner}>
           <h2>My Capabilities</h2>
           <p>

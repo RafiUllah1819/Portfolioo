@@ -4,7 +4,7 @@ import styles from "./Hero.module.css";
 const Hero = () => {
   return (
     <div className={styles.bannerWrapper}>
-      <div className="container">
+      <div className={styles.Container}>
         <div className={styles.bannerInner}>
           <div className={styles.circle}>
             <img src="assets/images/circle.png"></img>
